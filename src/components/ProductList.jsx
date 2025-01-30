@@ -41,6 +41,7 @@ const ProductList = () => {
     <option value="Vegetable">Vegetable</option>
     <option value="Flower">Flower</option>
     <option value="Seeds">Seeds</option>
+	<option value="Medicine">Medicine</option>
   </select>
 </div>
 
