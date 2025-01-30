@@ -1,0 +1,66 @@
+
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  position: fixed; /* Keep it fixed on the screen */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Optional: add background overlay */
+}
+
+.payment-processing,
+.payment-qr {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%; /* Ensure the card is responsive */
+  text-align: center;
+}
+
+.payment-processing h2,
+.payment-qr h2 {
+  font-size: 24px;
+  color: #00796b;
+  margin-bottom: 15px;
+}
+
+.payment-processing p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.qr-code-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-code-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #1976d2;
+  border-radius: 12px;
+}
+
+.scan-qr-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 8px 18px rgba(76, 175, 80, 0.3);
+  transition: background-color 0.3s;
+}
+
+.scan-qr-btn:hover {
+  background-color: #45a049; /* Darken button on hover */
+}

@@ -1,0 +1,114 @@
+/* Order.css */
+
+/* Main container styling */
+.order-container-unique {
+    background-color: #f9f9f9;
+  border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Header styling */
+  .order-header-unique {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 2px solid #00796b;
+  }
+  
+  /* Customer Details Section */
+  .customer-details-unique {
+    background-color: #d6f2fd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-header-unique {
+    color: #00796b;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .customer-info-unique {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Product Details Section */
+  .product-details-unique {
+    background-color: #d6f2fd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-header-unique {
+    color: #00796b;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .product-list-unique {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .product-item-unique {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: #f396f1;
+    border-radius: 5px;
+  }
+  
+  .product-info-unique {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Total Price Section */
+  .total-price-unique {
+    background-color: #c8e6c9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .total-price-header-unique {
+    color: #2d8231;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .total-price-info-unique {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Pay Now Button */
+  .pay-now-btn-unique {
+    background-color: #e437dc;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+  }
+  
+  .pay-now-btn-unique:hover {
+    background-color: #da1bb7;
+  }
+  

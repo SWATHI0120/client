@@ -1,0 +1,139 @@
+
+.cart-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1440px;
+  margin: 0 auto; 
+  background-color: #fef9f9; 
+  border-radius: 50px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.back-button {
+  background-color: #d5d8db; 
+  color: #050505; 
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px; 
+  bottom: px;
+  left: 20px;
+  transition: background-color 0.3s ease; 
+}
+
+
+.back-button:hover {
+  background-color: #d976d8;
+}
+.shoppingcart{
+  text-align: center;
+  }
+
+.cart-items-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+ 
+}
+
+/* Style for individual cart items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #968f8f;
+  padding-bottom: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.cart-item:hover {
+  background-color: #f1f1f1; /* Light gray hover effect */
+}
+
+.cart-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+/* Style for product name */
+.cart-item h3 {
+  font-size: 25px;
+  font-weight: 750;
+  margin: 0;
+  color: #333; /* Darker text for contrast */
+}
+
+/* Style for product description */
+.cart-item p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555; /* Muted text for descriptions */
+}
+
+/* Style for the total price */
+.total-price {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: right;
+  color: #000; /* Bold text for the total price */
+}
+
+/* Additional responsive design for mobile devices */
+@media (max-width: 600px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .total-price {
+    text-align: left;
+  }
+}
+
+/* Style for the remove button */
+.removebt {
+  right: 50px; /* Positioning to the left side */
+  bottom: 30%;
+  background-color: #ff5722; /* Orange background */
+  color: white; /* White text color */
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.removebt:hover {
+  background-color: #e64a19; /* Darker shade of orange on hover */
+  transform: translateY(-8%) scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.cart-count {
+  font-size: 23px; 
+  font-weight: bold;
+  color: #35e6f0; 
+  margin-top: 20px; 
+  text-align: center; 
+}
+
+.cart-count span {
+  color: red; 
+  font-size: 20px; 
+}
+
+
+

@@ -1,0 +1,106 @@
+.cus-customer-details-container {
+  text-align: center;
+  padding: 20px; /* Increased padding for better spacing */
+  background-color: #f9f9f9; /* Lighter background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 15px rgba(34, 33, 33, 0.1); /* Soft shadow around the container */
+  border-radius: 10px;
+}
+
+.cus-h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c3e50; /* Darker color for the header */
+}
+
+.cus-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(223, 140, 251);
+  padding: 30px; /* Increased padding for a more spacious form */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Deeper shadow for form */
+}
+
+.cus-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #34495e; /* Darker color for labels */
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+}
+
+.cus-input, .cus-select, .cus-textarea {
+  margin-bottom: 20px;
+  padding: 12px; /* Added padding for input fields */
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+.cus-input[type="text"], .cus-input[type="email"], .cus-textarea {
+  height: 45px; /* Standard height for inputs */
+}
+
+.cus-textarea {
+  height: 120px;
+  resize: none;
+}
+
+.cus-input:focus, .cus-select:focus, .cus-textarea:focus {
+  border-color: #26a69a; /* Border color change on focus */
+  box-shadow: 0 0 5px rgba(38, 166, 154, 0.5); /* Shadow effect on focus */
+}
+
+.cus-button {
+  background-color: #df287a;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0 4px 10px rgba(38, 166, 154, 0.3); /* Button shadow */
+}
+
+.cus-button:hover {
+  background-color: #3be763;
+  box-shadow: 0 4px 15px rgba(38, 166, 154, 0.5); /* Button hover shadow effect */
+}
+
+
+
+
+/* Style for back button (if you choose to add it) */
+.cus-back-to-cart-button {
+  background-color: #c5cccb;
+  color: rgb(20, 19, 19);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cus-back-to-cart-button:hover {
+  background-color: #ccd2d2;
+}
