@@ -6,7 +6,7 @@ import CartPage from './components/CartPage';
 import './App.css';
 import CustomItemContext from './context/ItemContext';
 import CustomerDetails from './components/CustomerDetails';
-import Order from './components/Order'; // Import the Order component
+import Order from './components/Order'; 
 import PaymentSuccess from './components/PaymentSuccess';
 
 
